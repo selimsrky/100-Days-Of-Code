@@ -65,10 +65,10 @@
  
 # Todays project : Tip Calculator
 
-print("Welcome to tip calculator!")
-bill = float(input("What was the total bill?  $ "))
-tip = int(input("How much tip(percentage) would you like to give(10,12 or 15)? "))
-amount_of_people = int(input("How many people to split the bill? "))
-bill_with_tip = bill + bill * (tip/100)
-pay = round(((bill_with_tip) / amount_of_people),2)  
-print(f"Each person should pay: ${pay} ")
+# print("Welcome to tip calculator!")
+# bill = float(input("What was the total bill?  $ "))
+# tip = int(input("How much tip(percentage) would you like to give(10,12 or 15)? "))
+# amount_of_people = int(input("How many people to split the bill? "))
+# bill_with_tip = bill + bill * (tip/100)
+# pay = round(((bill_with_tip) / amount_of_people),2)  
+# print(f"Each person should pay: ${pay} ")
