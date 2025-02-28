@@ -49,35 +49,35 @@
 
 # ROCK PAPER SCISSORS GAME
 
-# your_guess = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors")
+your_guess = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors")
 
-# list_game = ["Rock","Paper","Scissors"]
+list_game = ["Rock","Paper","Scissors"]
 
-# if your_guess == "0":
-#     your_guess = list_game[0] 
-# if your_guess == "1":
-#     your_guess = list_game[1]
-# if your_guess == "2":
-#     your_guess = list_game[2]
+if your_guess == "0":
+    your_guess = list_game[0] 
+if your_guess == "1":
+    your_guess = list_game[1]
+if your_guess == "2":
+    your_guess = list_game[2]
 
-# random_index = random.randint(0,2)
-# computer_guess = list_game[random_index]
+random_index = random.randint(0,2)
+computer_guess = list_game[random_index]
 
-# if computer_guess == "Rock" and your_guess == "Paper":
-#     print("You win the game.")
+if computer_guess == "Rock" and your_guess == "Paper":
+    print("You win the game.")
 
-# elif computer_guess == "Rock" and your_guess == "Scissors":
-#     print("You lose the game.")
-# elif computer_guess == "Paper" and your_guess == "Scissors":
-#     print("You win the game.")
-# elif computer_guess == "Paper" and your_guess == "Rock":
-#     print("You lose the game.")
-# elif computer_guess == "Scissors" and your_guess == "Rock":
-#     print("You win the game.")
-# elif computer_guess == "Scissors" and your_guess == "Paper":
-#     print("You lose the game.")
+elif computer_guess == "Rock" and your_guess == "Scissors":
+    print("You lose the game.")
+elif computer_guess == "Paper" and your_guess == "Scissors":
+    print("You win the game.")
+elif computer_guess == "Paper" and your_guess == "Rock":
+    print("You lose the game.")
+elif computer_guess == "Scissors" and your_guess == "Rock":
+    print("You win the game.")
+elif computer_guess == "Scissors" and your_guess == "Paper":
+    print("You lose the game.")
 
-# else:
-#     print("It's draw.")
+else:
+    print("It's draw.")
 
 
